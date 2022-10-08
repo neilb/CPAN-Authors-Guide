@@ -31,5 +31,26 @@ actual question to the answer.
 = cut
 ```
 
+### Synopsis
 
+How one might use the application or module is key. Each module may follow its own conention, and requiores a set of parameters to be supplied to work.  The yield from the module may also be described, so that the developer can use it, transform it, and process it according to the needs of the dependant application or module
+
+```
+=head1 SYNOPSIS
+ 
+   use DeepThought::Answer qw/buildEarth/;  # declare the module to be used
+                                            # and functions that may be imported
+   
+   my $answer=DeepThought::Answer->new(     # create a new object
+       question=>undef,   
+   );
+   $answer->reveal();                       # use the object method
+   buildEarth();                            # run imported function
+   
+=cut
+```
+
+   
+   
+   
 
