@@ -28,4 +28,16 @@ Creating a simple module and releasing it to CPAN.
 * Installing a module using a CPAN client
 * [The CPAN Index](the-cpan-index.md)
 
-## Other pages
+## The Ideal Module/ Application for CPAN
+
+* Purpose
+* Documentation
+* Tests
+* Examples
+* Support
+
+## Building/Packaging Methods
+
+## Adopting a Module
+
+## Getting Help
