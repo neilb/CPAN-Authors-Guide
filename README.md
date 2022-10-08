@@ -30,10 +30,11 @@ Creating a simple module and releasing it to CPAN.
 
 ## The Ideal Module/ Application for CPAN
 
-The ideal Module is structured resource.  As such it is more than just a black box with performs a function.  Like all software it is written by someone,  performs a function, may be useful for others, may have dependancies,  needs to be reliable, may have bugs that may need to be detected and fixed.  Thus for a module to be successful beyond its initial development, it has to be able to convey to a fellow CPAN user/author several things.  Such information may be in various places, a separate POD file, embedded in the source code, a separate MakeFile and others.
+The ideal Module is structured resource.  As such it is more than just a black box with performs a function.  Like all software, it has a name,  it is written by someone,  performs a function, may be useful for others, may have dependancies,  needs to be reliable, may have bugs that may need to be detected and fixed.  Thus for a module to be successful beyond its initial development, it has to be able to convey to a fellow CPAN user/author several things.  Such information may be in various places, a separate POD file, embedded in the source code, a separate MakeFile and others.
 
-* [Purpose](purpose.md)
-* Documentation
+* [The name](documentation.md#The_Name)
+* [Purpose](documentation.md#The_Purpose.md)
+* [Synopsis](documentation.md#Synopsis)
 * Tests
 * Examples
 * Support
