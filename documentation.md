@@ -35,7 +35,7 @@ actual question to the answer.
 
 =end html
 
-= cut
+=cut
 
 ```
 
