@@ -2,7 +2,7 @@
 
 The standard document format for Perl is [POD](https://perldoc.perl.org/perlpod).  This not so plain documentation format, quite apart from being a reference for a reader, also is used to extract various information to be rendered by search engines such as MetaCPAN.
 
-### The Name.
+### The Name
 
 Any module has a name.  The is hopefully usefgully conveys its purpose, and also contains is path.  The path allows grouping of related modules so that they are easy to find both for the developer and the code that depend on the module.  Typically this is conveyed in a pod as 
 
