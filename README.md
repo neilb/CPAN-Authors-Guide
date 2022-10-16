@@ -59,3 +59,6 @@ The ideal Module is structured resource.  As such it is more than just a black b
 ## Adopting a Module
 
 ## Getting Help
+
+## See Also
+* [CPAN Tutorials](https://tynovsky.github.io/cpan-tutorials/)
