@@ -1,7 +1,5 @@
 ## Graphical Overview
 
-![CPAN](https://user-images.githubusercontent.com/34284663/196377765-ade89251-9eb6-4452-9271-a5993b65f1f2.gif)
-
 This illustrates the number of components of an archive of a module that is ready to be uploaded to CPAN.   The module Vogon is found under Aliens and is encoded in Vogon.pm in the Aliens Path.  As well as this module, the Vogon class has several associated modules and these are stored in a folder called Vogon in Aliens.  To use the Vogon Module one could (For example) use `use`.  Note the convention: Modules typically start with a capital letter. The modules are to included in a `lib`
 ready to inculded somewhere in the @INC path by the installer.
 ```
@@ -10,7 +8,11 @@ use Aliens::Vogon::Poetry qw/recite create analyse/;
 use Aliens::Vogon::Bureaucracy qw /apply/;
 ```
 
-There are other files apart for the actual code.  These help the installer check, build and install the module successfully, as well as contained infomration abot the module itself.  Fortunately there are amny tools that help the creation of these files for you.  
+![CPAN](https://user-images.githubusercontent.com/34284663/196377765-ade89251-9eb6-4452-9271-a5993b65f1f2.gif)
+
+
+It is immediately apparent that there are other files apart from the actual code.  These help the installer check, build and install the module successfully, as well as contained information about the module itself, or if the installation fails abort safely without leaving residue of a non-functioning module.  Fortunately there are many tools that help the creation of these files for you.  
+
 
 ## README
 
