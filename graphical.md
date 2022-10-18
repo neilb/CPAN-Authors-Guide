@@ -13,19 +13,20 @@ use Aliens::Vogon::Bureaucracy qw /apply/;
 
 It is immediately apparent that there are other files apart from the actual code.  These help the installer check, build and install the module successfully, as well as contained information about the module itself, or if the installation fails abort safely without leaving residue of a non-functioning module.  Fortunately there are many tools that help the creation of these files for you.  
 
+## The Extra Files
 
-## README
+#### README
 
 This is a human readable file that tells the user what the Module does, how to install it and how to use it, etc.  Not obligatory, but helpful not only if the intent is public distribution, but also to remind the developer the intent and the usage.
 
-## CHANGES
+#### CHANGES
 
 This is a human readable file that tells the user how the module has evolved.  Particularly useful when identifying breaking changes, or when new features are introduced, or old features deprecated.  When timestamps are also included
 
-## MANIFEST
+#### MANIFEST
 
 This contains the list of files to be included in the package.  This may be generated automatically by many module builders.
 
-## MakeFile.PL
+#### MakeFile.PL
 
 This contains the instructions for make to build the file.  This also includes information like authors, module dependencies etc.  Looking at an [example](https://github.com/saiftynet/CPAN-Authors-Guide/blob/master/example-with-extutils-makemaker/Makefile.PL) helps.  
