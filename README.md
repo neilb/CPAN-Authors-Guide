@@ -67,3 +67,8 @@ The ideal Module is structured resource.  As such it is more than just a black b
 ## Adopting a Module
 
 ## Getting Help
+
+## References
+
+* [List of useful resources](resources.md#)
+
