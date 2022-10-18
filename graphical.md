@@ -14,7 +14,11 @@ There are other files apart for the actual code.  These help the installer check
 
 ## README
 
-This is a file that tells the user what the Module does, how to install it and how to use it, etc.  Not obligatory, but helpful not only if the intent is public distribution, but also to remind the developer the intent and the usage.
+This is a human readable file that tells the user what the Module does, how to install it and how to use it, etc.  Not obligatory, but helpful not only if the intent is public distribution, but also to remind the developer the intent and the usage.
+
+## CHANGES
+
+This is a human readable file that tells the user how the module has evolved.  Particularly useful when identifying breaking changes, or when new features are introduced, or old features deprecated.  When timestamps are also included
 
 ## MANIFEST
 
