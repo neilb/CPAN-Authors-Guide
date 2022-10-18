@@ -32,7 +32,7 @@ The ideal Module is structured resource.  As such it is more than just a black b
 
 ### The Structure of a CPAN Distribution
 
-* [A Graphical Overview](grahical.md)
+* [A Graphical Overview](graphical.md#)
 * The files
 
 ### Documentation
