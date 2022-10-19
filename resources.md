@@ -14,4 +14,5 @@ This is a one page guide to uploading to a module to CPAN.  It describes in simp
 
 ## [Dist::Zilla](https://dzil.org/)
 
-A comprehensive modular ecosystem for module integrity testing and uploading, which is well maintained and powerful.
+A comprehensive modular ecosystem for module integrity testing and uploading, which is well maintained and powerful.  Other tools exist with less comrehensive features set and less complexity.  [Minilla]( https://metacpan.org/pod/Minilla) is one such excellent utility
+
