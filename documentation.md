@@ -4,7 +4,7 @@ The standard document format for Perl is [POD](https://perldoc.perl.org/perlpod)
 
 ### The Name
 
-Any module has a name.  The is hopefully usefully conveys its purpose, and also contains its path.  The path allows grouping of related modules so that they are easy to find both for the developer and the code that depend on the module.  Typically this is conveyed in a pod thus:-
+Any module has a name. To go into CPAN it must be unique.  The chosen name hopefully usefully conveys its purpose, and also contains its path.  The path allows grouping of related modules so that they are easy to find both for the developer and the code that depend on the module.  Typically this is conveyed in a pod thus:-
 
 ```
 =head1 NAME
