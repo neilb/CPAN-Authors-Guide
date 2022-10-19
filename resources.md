@@ -11,3 +11,7 @@ This is an extremely comprehensive resource delving into the world of Perl modul
 ## [How to upload a script to CPAN](https://www.perl.com/article/how-to-upload-a-script-to-cpan/)
 
 This is a one page guide to uploading to a module to CPAN.  It describes in simple terms the construction of MakeFile.pl, and the subsequent steps required to upload the module for communal consumption.
+
+## [Dist::Zilla](https://dzil.org/)
+
+A comprehensive modular ecosystem for module integrity testing and uploading, which is well maintained and powerful.
