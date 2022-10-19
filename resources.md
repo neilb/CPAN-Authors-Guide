@@ -1,6 +1,6 @@
 # List of useful resources
 
-## [PAUSE](https://pause.perl.org/pause/query?ACTION=pause_04about)
+## [PAUSE](https://pause.perl.org/pause/query?ACTION=pause_04about) (The {Perl programming} Authors Upload Server)
 
 PAUSE is a key component of the perl ecosystem comprising the authors that contribute.  Uploading modules to CAPN requires a PAUSE account.  Having read the documentatio that describes the responsibilities of an author one can then [Register as an Author](https://pause.perl.org/pause/query?ACTION=request_id) 
 
