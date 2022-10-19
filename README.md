@@ -30,12 +30,25 @@ Creating a simple module and releasing it to CPAN.
 ## The Ideal Module/ Application for CPAN
 The ideal Module is structured resource.  As such it is more than just a black box that performs a function.  Like all software, it has a name,  it is written by someone,  performs a function, may be useful for others, may have dependancies,  needs to be reliable, may have bugs that may need to be detected and fixed.  Thus for a module to be successful beyond its initial development, it has to be able to convey to a fellow CPAN user/author several things.  Such information may be in various places, a separate POD file, embedded in the source code, a separate MakeFile and others.
 
+### The Structure of a CPAN Distribution
+
+* [A Graphical Overview](graphical.md#)
+* [The Non-Code Files in a Module Archive](graphical.md#the-extra-files)
+
 ### Documentation
 * [The Name](documentation.md#the-name)
 * [The Purpose](documentation.md#the-purpose)
 * [Synopsis](documentation.md#synopsis)
+* [Methods](documentation.md#methods)
+* [Misc](documentation.md#dependencies) -Dependencies, Authors, License, Installation
+
 
 ### Code Tidy and Commentary
+
+* [Perl::Critic](tidy.md#perlcritic)
+* [Perl::Tidy](tidy.md#perltidy)
+* [Others](https://analysis-tools.dev/tag/perl)
+
 
 ### Building Tests
 * Tests
@@ -59,3 +72,8 @@ The ideal Module is structured resource.  As such it is more than just a black b
 ## Adopting a Module
 
 ## Getting Help
+
+## References
+
+* [List of useful resources](resources.md#)
+

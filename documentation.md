@@ -4,7 +4,7 @@ The standard document format for Perl is [POD](https://perldoc.perl.org/perlpod)
 
 ### The Name
 
-Any module has a name.  The is hopefully usefully conveys its purpose, and also contains is path.  The path allows grouping of related modules so that they are easy to find both for the developer and the code that depend on the module.  Typically this is conveyed in a pod thus:-
+Any module has a name. To go into CPAN it must be unique.  The chosen name hopefully usefully conveys its purpose, and also contains its path.  The path allows grouping of related modules so that they are easy to find both for the developer and the code that depend on the module.  Typically this is conveyed in a pod thus:-
 
 ```
 =head1 NAME
@@ -58,7 +58,60 @@ How one might use the application or module is key. Each module may follow its o
 =cut
 ```
 
-   
-   
-   
+ 
+ ### Methods
+ 
+Using a module may bring a coder multiple exported functions, objecvt methods etc.  Such functions need to be decribed to adequately in order to be useful.  It is useful to document the usage of these, in a fairly descriptive way.  When embedding these in the perl module code, it is useful to place this just before the method code.
 
+```
+=head1 METHODS
+
+=head3 C<$answer-E<gt>reveal()>
+
+This allows the DeepThought::Answer module to reveal the answer.
+It is called multiple times, each time returning to STDOUT a
+response based on answers returned so far.
+    
+    $answer-E<gt>reveal();   # returns "I have the answer to the ulitmate question"
+    $answer-E<gt>reveal();   # returns "You are not going to like it"
+    $answer-E<gt>reveal();   # returns "The answer is ..."
+
+=cut
+```
+
+### Dependencies   
+
+The program may have multiple dependencies .  It is useful to list them and the versions required.  Of course your module or application will declare this in the code you have written, but this allows the user to see what might be needed before committing to the install.
+
+### Authors   
+
+The Authors of code deserve recognition and later attribution should their code be used elsewhere. No strict guidance is described for the formastting of the Authors.  Typically one would use the CPAN AUTHORID, but i guess there is no reason you could use the authros real name, or even the author's emnail address if available for communication.
+
+###  License
+
+While most code may have a fairly permissive license, many using the "same license as Perl itself" some coders may have other philosphical choices of license.  Often a copy of the License is required to be inlcuded in the packaging of the module.
+
+### Installation
+
+A decription of the install method is also a good idea.  While many modules are installable from CPAN, it sometimes helps to download the archive and manually install.  A few lines of what can be done is a good idea.
+
+
+```
+=head1 AUTHORS
+
+Majikthise and Vroomfondel
+
+=head1 LICENSE
+
+Artistic
+
+=head1 INSTALLATION
+
+Manual install:
+
+    $ perl Makefile.PL
+    $ make
+    $ make install
+
+=cut
+```
