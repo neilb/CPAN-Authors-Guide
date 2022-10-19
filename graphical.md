@@ -21,11 +21,26 @@ This is a human readable file that tells the user what the Module does, how to i
 
 #### CHANGES
 
-This is a human readable file that tells the user how the module has evolved.  Particularly useful when identifying breaking changes, or when new features are introduced, or old features deprecated.  When timestamps are also included
+This is a human readable file that tells the user how the module has evolved.  Particularly useful when identifying breaking changes, or when new features are introduced, or old features deprecated.  Versions timestamps are also included with a simple description of the change.
+
+``` 
+v0.01  5th July 2454  First release of Vogon
+  - created Vogon Race: Vogons created with Aliens::Vogon->new(name=>"Prostetnic Vogon Jeltz",role=>"Civil Servant",rank=>"Commander");
+  - added setMood() function which affects a trivariate parameter Aliens::Vogon->{mood} 
+  
+v0.02  7th July 2454  
+  - added Aliens::Vogon::Poetry, with functions recite(), and analyse().
+  
+```
 
 #### MANIFEST
 
-This contains the list of files to be included in the package.  This may be generated automatically by many module builders.
+This contains the list of files to be included in the package.  This may be generated automatically by many module builders. The paths are all using UNIX style slashes regardless of OS.
+
+#### MANIFEST.SKIP
+
+The module will be created ina directory which may ahve other files (e.g. logs, test outputs, old versions etc).  MANIFEST.SKIP contains a list of regular expressions whic direct the builder/packager which files should not be included.
+
 
 #### MakeFile.PL
 
