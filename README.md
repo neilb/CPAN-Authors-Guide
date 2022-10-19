@@ -40,7 +40,7 @@ The ideal Module is structured resource.  As such it is more than just a black b
 * [The Purpose](documentation.md#the-purpose)
 * [Synopsis](documentation.md#synopsis)
 * [Methods](documentation.md#methods)
-* Misc -Dependencies, Authors, License, Installation
+* [Misc](documentation.md#dependencies) -Dependencies, Authors, License, Installation
 
 
 ### Code Tidy and Commentary
