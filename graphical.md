@@ -39,7 +39,7 @@ This contains the list of files to be included in the package.  This may be gene
 
 #### MANIFEST.SKIP
 
-The module will be created ina directory which may ahve other files (e.g. logs, test outputs, old versions etc).  MANIFEST.SKIP contains a list of regular expressions whic direct the builder/packager which files should not be included.
+The module will be created in a directory which may have other files (e.g. logs, test outputs, old versions etc) that are not required to be included in the distribution archive.  MANIFEST.SKIP contains a list of regular expressions whic direct the builder/packager which files should not be included.
 
 
 #### MakeFile.PL
