@@ -45,6 +45,11 @@ The ideal Module is structured resource.  As such it is more than just a black b
 
 ### Code Tidy and Commentary
 
+* [Perl::Critic](tidy#perlcritic)
+* [Perl::Tidy](tidy#perltidy)
+* [Others](https://analysis-tools.dev/tag/perl)
+
+
 ### Building Tests
 * Tests
 * Reading report of CPAN Testers
