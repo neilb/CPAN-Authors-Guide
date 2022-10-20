@@ -59,3 +59,17 @@ The ideal Module is structured resource.  As such it is more than just a black b
 ## Adopting a Module
 
 ## Getting Help
+
+Starting from part 12 the [Advanced Perl Maven video course](https://perlmaven.com/advanced-perl-maven-video-course) contains a number of videos explaining the
+* [Tools to package Perl scripts, modules, and applications](https://perlmaven.com/tools-to-package-modules)
+* [Distribution directory layout](https://perlmaven.com/distribution-directory-layout)
+* [Makefile.PL of ExtUtils::MakeMaker](https://perlmaven.com/makefile-pl-of-extutils-makemaker)
+* [Makefile.PL of Module::Install](https://perlmaven.com/makefile-pl-of-module-install)
+* [Build.PL of Module::Build](https://perlmaven.com/build-pl-of-module-build)
+* [The Changes and README files in a Perl distribution](https://perlmaven.com/changes-and-readme)
+* [The MANIFEST and MANIFEST.SKIP files](https://perlmaven.com/manifest-and-manifest-skip)
+* [Packaging a Perl script and a Perl module](https://perlmaven.com/file-and-module)
+* [Packaging with Makefile.PL](https://perlmaven.com/packaging-with-makefile-pl)
+* [Packaging with Build.PL](https://perlmaven.com/packaging-with-build-pl)
+* [A test file in Perl](https://perlmaven.com/test-file)
+
