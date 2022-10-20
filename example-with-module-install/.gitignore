@@ -1,0 +1,10 @@
+MANIFEST
+MYMETA.*
+META.*
+Makefile
+My-App-*tar.gz
+blib/
+pm_to_blib
+*.bak
+inc/
+
